@@ -15,7 +15,7 @@
 </head>
 <body>
     
-    <form id="formulario">
+    <form id="formulario" onsubmit="return validarFormulario()">
         <div class="form-group">
             <label for="surnameField">Apellido:</label>
             <input type="text" id='surnameField' placeholder="Ingrese su apellido" required>
@@ -45,8 +45,6 @@
             <button type="submit" class="btn btn-primary" onclick="preguntas()"> Subir datos </button>
         </div>
     </form>
-
-
 
 </body>
 </html>
